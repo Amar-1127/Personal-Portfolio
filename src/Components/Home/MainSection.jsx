@@ -3,7 +3,7 @@ export default function MainSection() {
         <section id="mainSection" className="MainSection">
             <div className="mainSection-contentbox">
                 <div className="mainsection-content">
-                    <p className="section-title">Hello, I am
+                    <p className="section-title">Hi, I am
                     </p>
                     <h1 className="mainSection-title">
                         <span className="mainSection-title-color">Amar Sinha</span> 
