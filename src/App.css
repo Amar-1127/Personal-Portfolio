@@ -1,1 +1,87 @@
+/* Global */
+body{
+    margin: 0;
+    font-family: "Gill Sans", sans-serif;
+    font-style: oblique;
+    background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.button-primary {
+    font-family: "Gill Sans", sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    padding: 6px;
+    font-style: bold;
+    text-align: centre;
+    border-radius: 5px;
+    transition: 0.5s;
+    background-color: rgb(157, 115, 220);
+    border-color: black;
+    border-width: 2px;
+}
+.button-primary:hover {
+    background-color: rgb(37, 4, 171);
+}
+
+.section-title {
+    color: black;
+    font-size: 21px;
+    text-align: centre;
+    display: flex;
+    align-items: flex-start;
+}
+
+.MainSection{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    padding: 100px;
+    align-items: center;
+    gap: 32px;
+
+}
+.mainSection-contentbox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+.mainSection-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+.mainSection-contentbox > button {
+    margin-top: 10px;
+}
+.mainSection-title{
+    color: rgb(157, 115, 220);
+    font-size: 70px;
+    line-height: 80px;
+}
+.mainSection-description{
+    color: black;
+    font-size: 25px;
+    line-height: 35px;
+   
+}
+.mainSection-img{
+    display: flex;
+}
+.mainSection-img > img{
+    width: 100%;
+    height: 100%;
+}
+
 
