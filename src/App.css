@@ -21,7 +21,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: centre;
-    background-color: white;
+    background-color: whitesmoke;
     padding: 20px 35px;
 }
 .navbar-name{
@@ -43,6 +43,7 @@ p {
     font-size: 18px;
     align-items: center;
 }
+/* Navbar ends */
 
 /* MainSection Sytling */
 .button-primary {
@@ -114,6 +115,30 @@ p {
 }
 /* MainSection Ends */
 
+/* AboutMe Styling */
+.about--section{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 115px 100px;
+    align-items: center;
+    gap: 50px;
+}
 
+.section-title {
+    font-style: normal;
+    font-size: 36px;
+    line-height: 50px;
+}
+.aboutme-content{
+    font-size: 22px;
+    line-height: 28px;
+}
+.about--section--img{
+    display: flex;
+}
 
-
+.about--section--img > img {
+    width: 95%;
+    height: 95%;
+}
+/* AboutMe Ends */
