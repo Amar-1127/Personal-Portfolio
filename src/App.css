@@ -21,7 +21,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: centre;
-    background-color: white;
+    background-color: whitesmoke;
     padding: 20px 35px;
 }
 .navbar-name{
@@ -43,6 +43,7 @@ p {
     font-size: 18px;
     align-items: center;
 }
+/* Navbar ends */
 
 /* MainSection Sytling */
 .button-primary {
@@ -113,7 +114,4 @@ p {
     height: 100%;
 }
 /* MainSection Ends */
-
-
-
 
