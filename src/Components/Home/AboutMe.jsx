@@ -2,7 +2,7 @@ export default function AboutMe() {
     return  (
         <section className = "about--section">
             <div className="about--section--img">
-                <img src="./amar.jpg" alt="Amar's Photo" /> 
+                <img src={`${process.env.PUBLIC_URL}/amar.jpg`} alt="Amar's Photo" /> 
             </div>
             <div className="aboutme-content-box">
                 <div className="aboutme-content">
