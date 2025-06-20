@@ -1,6 +1,7 @@
 import MainSection from "../MainSection";
 import AboutMe from "../AboutMe";
 import MyPortfolio from "../MyPortfolio";
+import ContactMe from "../ContactMe";
 
 export default function Home() {
     return(
@@ -9,6 +10,7 @@ export default function Home() {
         <MainSection /> 
         <AboutMe />
         <MyPortfolio />
+        <ContactMe />
         </>
     )
 }
