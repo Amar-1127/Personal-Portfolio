@@ -5,7 +5,7 @@ function Footer() {
       <footer className="footer--container">
         <div className="footer--link--container">
           <div>
-            <img src="./img/logo.svg" alt="Logoipsum" />
+          <p className="navbar-name">📧 amarsinha1127@gmail.com</p>
           </div>
           <div className="footer--items">
             <ul>
@@ -16,7 +16,7 @@ function Footer() {
                   smooth={true}
                   offset={-70}
                   duration={500}
-                  to="heroSection"
+                  to="/MainSection"
                   className="text-md"
                 >
                   Home
@@ -29,7 +29,7 @@ function Footer() {
                   smooth={true}
                   offset={-70}
                   duration={500}
-                  to="MyPortfolio"
+                  to="/MyPortfolio"
                   className="text-md"
                 >
                   Portfolio
@@ -42,7 +42,7 @@ function Footer() {
                   smooth={true}
                   offset={-70}
                   duration={500}
-                  to="AboutMe"
+                  to="/AboutMe"
                   className="text-md"
                 >
                   About Me
@@ -55,7 +55,7 @@ function Footer() {
                   smooth={true}
                   offset={-70}
                   duration={500}
-                  to="Contact"
+                  to="/ContactMe"
                   className="text-md"
                 >
                   Contact
