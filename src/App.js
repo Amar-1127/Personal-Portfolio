@@ -9,10 +9,12 @@ import AboutMe from './Components/Home/AboutMe';
 import ContactMe from './Components/Home/ContactMe';
 import Footer from './Components/Home/Footer';
 
+const basename = process.env.NODE_ENV === "production" ? "/Personal-Portfolio" : "/";
+
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={basename} >
         <div>
           <Navbar />
           <Routes>
