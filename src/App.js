@@ -13,7 +13,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />}></Route>
-            <Route path="/MainSection" element={<MainSection />}></Route>
+            {/* <Route path="/MainSection" element={<MainSection />}></Route> */}
             {/* <Route path="*" element={<div>404 Not Found</div>}></Route> */}
           </Routes>
         </div>
