@@ -3,6 +3,7 @@ export default function ContactMe() {
         <section className="contact--section">
             <div>
                 <h1 className="porfolio-title"> Contact Me 📨</h1>
+                <p className="contact-sub-title"> Fill out the form below</p>
             </div>
             <form className="contact-form-box">
                 <div className="form-content">
