@@ -13,7 +13,7 @@ export default function MainSection() {
                 
             </div>
             <div className="mainSection-img">
-                <img src="img/amar.jpg" alt="Amar's Photo"/>
+                <img src="./amar.jpg" alt="Amar's Photo"/>
             </div>
         </section>
     );
