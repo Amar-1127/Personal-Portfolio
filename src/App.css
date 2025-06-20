@@ -251,3 +251,42 @@ p {
     font-size: 17px;
     align-self: stretch;
 }
+/* ContactMe ends */
+
+/* Footer Starts */
+.footer--container {
+    display: flex;
+    padding: 50px 60px;
+    flex-direction: column;
+    align-items: flex-start;
+    background: whitesmoke;
+    align-items: center;
+    align-self: stretch;
+  }
+  .footer--link--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+  }
+  .footer--items > ul {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 42px;
+    text-decoration: none;
+  }
+  .footer--items ul > li > a {
+    text-decoration: none;
+  }
+  .footer--social--icon > ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+    text-decoration: none;
+  }
+  
+  
