@@ -4,13 +4,21 @@ export default function MyPortfolio() {
         <div className="porfolio--content-box">
             <div className="portfolio--content">
                 <h2 className="porfolio-title">Portfolio 📝</h2>
+                <p className="porfolio-sub-title"> My projects</p>
             </div>
             <div>
-                <a href="https://github.com/Amar-1127">
+                {/* <a href="https://github.com/Amar-1127">
                 <button className="button-github">
-                    Visit my Github <img  src="/img/github-icon.png" alt="Github-Icon" />
+                     Visit
+                    <img  src="/img/github-icon.png" alt="Github-Icon" />
                 </button>
-                </a>
+                </a> */}
+                <button
+                className="button-github"
+                onClick={() => window.open("https://github.com/Amar-1127", "_blank")}>
+                Visit
+                <img src="/img/github-icon.png" alt="Github-Icon" />
+                </button>
             </div>
         </div>
         <div className="portfolio--section--content">
@@ -21,11 +29,12 @@ export default function MyPortfolio() {
                 <div className="portfolio--card--content">
                     <div>
                         <h3 className="protfolio-section-title">Personal Portfolio</h3>
-                        <p className="portfolio-text"> description </p>
+                        <p className="portfolio-text"> A React based web-application that showcases my projects, contact info, skills and background </p>
                     </div>
-                    <p className="portfolio-link"> link </p>
+                    <p className="portfolio-link"> Link :-  </p>
                 </div>
             </div>
+            
         </div>
         </section>
     );
