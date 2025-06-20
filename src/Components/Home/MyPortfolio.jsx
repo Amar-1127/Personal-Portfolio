@@ -31,7 +31,10 @@ export default function MyPortfolio() {
                         <h3 className="protfolio-section-title">Personal Portfolio</h3>
                         <p className="portfolio-text"> A React based web-application that showcases my projects, contact info, skills and background </p>
                     </div>
-                    <p className="portfolio-link"> Link :-  </p>
+                    <a href="https://amar-1127.github.io/Personal-Portfolio/"
+                       className="portfolio-link" 
+                       target="_blank" 
+                       rel="noopener noreferrer">Link to portfolio</a>
                 </div>
             </div>
             

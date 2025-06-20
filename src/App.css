@@ -210,7 +210,9 @@ p {
     gap: 10px;
     line-height: 20px;
 }
-
+.portfolio-link{
+    text-decoration: none;
+}
 /* My Portfolio Ends */
 
 /* ContactMe */
