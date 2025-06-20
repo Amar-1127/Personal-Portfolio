@@ -10,7 +10,7 @@ export default function MainSection() {
                     </h1>
                     <p className="mainSection-description"> Second-Year Computer Science Student <br /> I'm currently building my skills in programming and development. </p>
                 </div>
-                <button className="button-primary">Get in touch</button>
+                
             </div>
             <div className="mainSection-img">
                 <img src="./img/Amar's.jpg" alt="Amar's Photo"/>

@@ -17,14 +17,14 @@ function Navbar() {
                         </li>
                         <li>
                             <Link 
-                            to="MyPortfolio"
+                            to="/MyPortfolio"
                             className="navbar--content"
                             >Portfolio
                             </Link>
                         </li>
                         <li>
                             <Link 
-                            to="AboutMe"
+                            to="/AboutMe"
                             className="navbar--content"
                             >About Me
                             </Link>
@@ -33,7 +33,7 @@ function Navbar() {
                     </ul>
                 </div>
                 <Link
-                to="Contact"
+                to="/ContactMe"
                 className="button-ContactMe"
                 > <button className="button-primary">Contact Me</button>
                 </Link>
