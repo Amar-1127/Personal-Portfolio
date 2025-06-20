@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import React from "react";
 function Footer() {
     return (
-      <footer className="footer--container">
+      <footer id="footer" className="footer--container">
         <div className="footer--link--container">
           <div>
           <p className="navbar-name">📧 amarsinha1127@gmail.com</p>

@@ -7,6 +7,7 @@ import MainSection from './Components/Home/MainSection';
 import MyPortfolio from './Components/Home/MyPortfolio';
 import AboutMe from './Components/Home/AboutMe';
 import ContactMe from './Components/Home/ContactMe';
+import Footer from './Components/Home/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/ContactMe" element={<ContactMe />}></Route>
             {/* <Route path="*" element={<div>404 Not Found</div>}></Route> */}
           </Routes>
+          <Footer />
         </div>
       </Router>
     </div>
